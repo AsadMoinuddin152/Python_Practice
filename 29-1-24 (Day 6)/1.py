@@ -30,7 +30,9 @@ class LinkedList:
         current = self.head
         print("Display of Elements :")
         while current:
-            print(current.data, end="-->")
+            print(current.data, end="")
+            if current.next:
+                print("-->", end="")
             current = current.next
         print()
 
