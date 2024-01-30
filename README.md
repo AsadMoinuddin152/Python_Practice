@@ -1,24 +1,39 @@
 # Daily Python Practice
 
-This repository is dedicated to daily Python practice, starting from 22-1-24.
+This repository is a daily Python programming practice resource, initiated from 22-1-24.
 
 ## Purpose
 
-The purpose of this repository is to improve Python programming skills through consistent daily practice. By engaging in regular coding exercises and challenges, we aim to enhance our understanding of Python concepts, algorithms, and problem-solving techniques.
+Enhance Python programming skills through daily exercises, focusing on concepts, algorithms, and problem-solving.
 
 ## Structure
 
-The repository is organized into daily practice sessions, with each session focusing on a specific topic or exercise. Each session is contained within its own directory, named according to the date in the format "YY-MM-DD". Inside each session directory, you will find the following:
+Organized into daily sessions (YY-MM-DD) with:
 
-- **README.md**: Provides an overview of the exercises and challenges for that particular session.
-- **Code**: Contains the Python code files for the exercises and challenges.
+- **README.md**: Overview of exercises and challenges.
+- **Code**: Python files for exercises and challenges.
+
+## Directory Structure
+
+.
+├── 22-01-24
+│ ├── README.md
+│ └── Code
+│ ├── program1.py
+│ └── program2.py
+├── 22-01-25
+│ ├── README.md
+│ └── Code
+│ ├── program1.py
+│ └── program2.py
+├── ...
 
 ## Contributing
 
-Contributions to this repository are welcome! If you have any Python exercises, challenges, or improvements to existing code, feel free to submit a pull request. Please ensure that your contributions align with the technical and professional nature of this repository.
+Contributions welcome! Submit pull requests for Python exercises, challenges, or code improvements, ensuring alignment with the repository's technical and professional nature.
 
 ## License
 
-This repository is licensed under the @AsadMoinuddin152(LICENSE). Feel free to use the code and resources for personal or educational purposes.
+Licensed under [@AsadMoinuddin152](LICENSE) for personal or educational use.
 
 Happy coding!
