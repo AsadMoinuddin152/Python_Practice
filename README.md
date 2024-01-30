@@ -13,21 +13,6 @@ Organized into daily sessions (YY-MM-DD) with:
 - **README.md**: Overview of exercises and challenges.
 - **Code**: Python files for exercises and challenges.
 
-## Directory Structure
-
-.
-├── 22-01-24
-│ ├── README.md
-│ └── Code
-│ ├── program1.py
-│ └── program2.py
-├── 22-01-25
-│ ├── README.md
-│ └── Code
-│ ├── program1.py
-│ └── program2.py
-├── ...
-
 ## Contributing
 
 Contributions welcome! Submit pull requests for Python exercises, challenges, or code improvements, ensuring alignment with the repository's technical and professional nature.
