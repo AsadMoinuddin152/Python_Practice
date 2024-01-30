@@ -1,5 +1,8 @@
+# Define a Cat class
 class Cat:
     species = 'mammal'
+    
+    # Constructor to initialize name and age attributes
     def __init__(self, name, age):
         self.name = name
         self.age = age
@@ -13,6 +16,5 @@ pinky = Cat('pinku', 0.7)
 def Max_age(*args):
     return max(args)
 
-
-# Output and name of the cat
+# Output the name and age of the oldest cat
 print(f"The oldest cat is {Max_age(oggy.age, olly.age, pinky.age)} years old.")
