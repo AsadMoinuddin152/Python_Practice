@@ -1,5 +1,7 @@
+# Define the Pets class
 class Pets():
     animals = []
+
     def __init__(self, animals):
         self.animals = animals
 
@@ -7,6 +9,7 @@ class Pets():
         for animal in self.animals:
             print(animal.walk())
 
+# Define the Cat class
 class Cat():
     is_lazy = True
 
@@ -17,26 +20,26 @@ class Cat():
     def walk(self):
         return f'{self.name} is just walking around'
 
+# Define the Simon class that inherits from Cat
 class Simon(Cat):
     def sing(self, sounds):
         return f'{sounds}'
 
+# Define the Sally class that inherits from Cat
 class Sally(Cat):
     def sing(self, sounds):
         return f'{sounds}'
 
-#1 Add noter Cat
+# Define the Minnu class that inherits from Cat
 class Minnu(Cat):
     def sing(self, sounds):
         return f'{sounds}'
 
-
-#2 Create a list of all of the pets (create 3 cat instances from the above)
+# Create a list of all the cats
 my_cats = [Sally('Sally', 7), Simon('Simon', 8), Minnu('Minnu', 10)]
 
-#3 Instantiate the Pet class with all your cats use variable my_pets
+# Instantiate the Pets class with all the cats using variable my_pets
 my_pets = Pets(my_cats)
-    
 
-#4 Output all of the cats walking using the my_pets instance
+# Output all the cats walking using the my_pets instance
 my_pets.walk()
